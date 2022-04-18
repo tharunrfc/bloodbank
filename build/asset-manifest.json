@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e31304c9.chunk.css",
+    "main.js": "/static/js/main.e5674626.chunk.js",
+    "runtime-main.js": "/static/js/runtime-main.8233b8b5.js",
+    "static/js/2.a4b6d207.chunk.js": "/static/js/2.a4b6d207.chunk.js",
+    "index.html": "/index.html",
+    "static/js/2.a4b6d207.chunk.js.LICENSE.txt": "/static/js/2.a4b6d207.chunk.js.LICENSE.txt",
+    "static/media/Blooddropmin.2657d322.png": "/static/media/Blooddropmin.2657d322.png",
+    "static/media/home.93c3571e.mp4": "/static/media/home.93c3571e.mp4",
+    "static/media/hospital.7aeaf53d.jpg": "/static/media/hospital.7aeaf53d.jpg",
+    "static/media/temp.40845a6c.png": "/static/media/temp.40845a6c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8233b8b5.js",
+    "static/js/2.a4b6d207.chunk.js",
+    "static/css/main.e31304c9.chunk.css",
+    "static/js/main.e5674626.chunk.js"
+  ]
+}

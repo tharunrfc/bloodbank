@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+.App{
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+}
+.navigation{
+  height: 100vh;
+  width: 18vw;
+  background-color: black;
+  color:white;
+}
+.nav_upper{
+  height:35vh;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav_lower{
+  height: 65vh;
+  width: 100%;
+}
+.nav_links{
+  border-top: 1px solid white;
+  padding-top:2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  height: 70%;
+  width: 100%;
+}
+.nav_link{
+  font: Hahmlet;
+  font-size: 1.4rem;
+  color: white;
+  text-decoration: none;
+}
+.nav_link:hover{
+  background-color: #28282B;
+  height: 6vh;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.content{
+  height: 100vh;
+  width: 82vw;
+}
+.App{
+  display: flex;
+}
+.blooddrop{
+  height:90%;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blooddrop_img{
+  height: 100%;
+  width: 70%;
+  color: transparent;
+}

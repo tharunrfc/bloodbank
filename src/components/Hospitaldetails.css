@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Hospital_details{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    background-image: linear-gradient(to right,#19376d,#6399eb);
+}
+.hospital_details_container{
+    height:90%;
+    width: 50%;
+    background:white;
+    border-radius: 10px;
+    
+}
+.hospital_details_container>form{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.hospital_details_bloodtype{
+    height: 6vh;
+    width: 50%;
+    background-color: red;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.hospital_details_bloodtype>label{
+    font-size:1.3rem;
+    font-family: 'Lato';
+    color: white;
+}
+.o{
+    background-color: #64C9CF;
+}
+.AB{
+    background-color: #F8485E;
+}
+.A{
+    background-color:#FF4C29;
+}
+.B{
+    background-color:#54436B;
+}
+.hospital_details_heading{
+    color: white;
+    font-family: 'Lato';
+    font-size:2.5rem;
+}
+.hospital_details_bloodtype>input{
+    outline: none;
+    border: none;
+    height: 70%;
+    border-radius: 10px;
+    padding-left: 3rem;
+}
+.subbtn{
+    height: 5vh;
+    width: 50%;
+    outline: none;
+    border: none;
+    font-size: 1.5rem;
+    background-image: linear-gradient(to right,#7C83FD,#96BAFF);
+    color: white;
+    border-radius:10px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.subbtn:hover{
+    transform: translateY(-5px);
+    transition: all 0.5s;
+}
+.subbtn:active{
+    transform: translateY(3px);
+    transition: all 0.5s;
+}

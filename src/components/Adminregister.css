@@ -1,0 +1,13 @@
+.adminreg_location{
+    width: 90%;
+    height: 7vh;
+    margin-top:7px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    padding-left: 20px;
+    color: grey;
+}
+.regsp{
+    height: 80vh !important;
+}

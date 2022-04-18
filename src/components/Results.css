@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Results{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 60%;
+    max-height: 100vh;
+    overflow-y: scroll;
+}
+.resulthospital{
+    margin:30px;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid red;
+    border-radius: 5px;
+    font-family: 'Lato';
+    font-size: 1.2rem;
+}
+.resulthospital>img{
+    height: 100%;
+width: 30%;
+}
+.search>form>select{
+    width: 20vw;
+    height: 10vh;
+    outline: none;
+    border-radius: 7px;
+    text-align: center;
+    border: 1px solid darkblue;
+    
+}
+.container::-webkit-scrollbar{
+    width: 1px;
+}
+.search>form>select>option{
+    margin-top: 20px;
+    font-size: 1rem;
+    display: block;
+    height: 5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.search>form>select>option:hover{
+    background-color: #efefef;
+}.results_empty{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.results_empty>h1{
+    font-family: 'Lato';
+}
